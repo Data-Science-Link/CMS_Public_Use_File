@@ -22,7 +22,7 @@ Here is the competition:
 - The species with the higher R^2 wins
 
 ## Dataset
-A link to download the dataset can be found [here]()
+A link to download the dataset can be found [here](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Geographic-Variation/GV_PUF)
 
 The most salient variables in the transformed dataset are:
 - Year
@@ -31,7 +31,7 @@ The most salient variables in the transformed dataset are:
 - Actual Per Capita Costs – The cost of healthcare Medicare/Medicaid services per person in a given state or county
 - “….” Per 1000 Beneficiaries – Per capita estimates of healthcare service usage
 
-  ![image]()
+  ![image](/docs/imgs/Data_Sample.png)
 
   *Sample of dataset*
 
@@ -57,15 +57,15 @@ The second type of graph is a correlation bar plot of all variables against per 
 - Imaging Events Per 1000 Beneficiaries
 - PAC: LTCH Covered Stays Per 1000 Beneficiaries
 
-  ![image]()
+  ![image](/docs/imgs/E&MEventsPer1000Beneficiaries.png)
 
   *National growth of per capita cost; High correlation to E&M Events*
 
-  ![image]()
+  ![image](/docs/imgs/HospiceCoveredStaysPer1000Beneficiaries.png)
 
   *National growth of per capita cost; Low correlation to Hospice Stays*
 
-  ![image]()
+  ![image](/docs/imgs/Correlation.png)
 
   *Per Capita Cost correlation to all other variables*
 
@@ -86,22 +86,22 @@ To reiterate, in this competition the computer is allowed to use any method to c
 - PAC: HH Visits Per 1000 Beneficiaries
 - Emergency Department Visits per 1000 Beneficiaries
 
-  ![image]()
+  ![image](/docs/imgs/Ridge_Regression_Varied_Alpha.png)
 
   *Ridge regression using all per capita explanatory variables*
 
-  ![image]()
+  ![image](/docs/imgs/Ridge_Regression_Single_Alpha.png)
 
   *Ridge regression feature importance using an alpha of 10*
 
-  ![image]()
+  ![image](/docs/imgs/Random_Forest_Top_5.png)
 
   *Random forest feature importance*
 
 ## Model Performance
 In the end, the random forest feature selection method worked the best. A multiple linear regression model using the random forest specified features outperformed all other models (see Table 1). Human feature selection facilitated by graphics outperformed the penalized regression model. Despite this human “success”, it should be noted that the resulting R squared of 0.44 is quite poor.
 
-  ![image]()
+  ![image](/docs/imgs/Results.png)
 
   *Model performance using various feature selection techniques*
 
