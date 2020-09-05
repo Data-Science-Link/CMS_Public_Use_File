@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Feature Selection](#feature-selection)
-	- [Human Feature Selection](#human-featur-selection)
+	- [Human Feature Selection](#human-feature-selection)
 	- [Computer Feature Selection](#computer-feature-selection)
 - [Model Performance](#model-performance)
 - [Conclusion](#conclusion)
